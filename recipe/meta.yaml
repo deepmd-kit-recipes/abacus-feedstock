@@ -1,4 +1,4 @@
-{% set version = "3.1.0" %}
+{% set version = "3.1.1" %}
 
 package:
   name: abacus
@@ -6,8 +6,7 @@ package:
 
 source:
   # path: ..
-  git_url: https://github.com/deepmodeling/abacus-develop.git
-  git_rev: v{{ version }}
+  url: https://github.com/Alcanderian/abacus-develop/archive/refs/heads/fix-huge-val.zip
 
 build:
   skip: true  # [not linux]
