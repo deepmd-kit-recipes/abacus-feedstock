@@ -41,8 +41,8 @@ requirements:
 
 test:
   commands:
-    - abacus
-    - mpirun -n 2 abacus
+    - abacus --version
+    - mpirun -n 2 abacus --version
 
 about:
   home: http://abacus.ustc.edu.cn/
